@@ -47,7 +47,10 @@ Node.js using the "browser" configuration in package.json, which is respected by
 [Mr]: https://github.com/montagejs/mr
 
 The browser implementation uses a WeakMap or a WeakMap shim to assign and recall
-a randomly generated string to every object it encounters.
+a randomly generated number to every object it encounters.
 The Node.js implementation takes advantage of Aleksey Smolenchuck's `objhash`
 module, which uses V8's own internal object hash function.
+Non object values pass through hash.
+Hash methods in general may return either strings or numbers, since either is
+suitable for use as a key in a plain object.
 
