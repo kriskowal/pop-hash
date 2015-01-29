@@ -15,12 +15,12 @@ hash(1)
 
 ## Polymorphic operator
 
-A well planned system of objects is beautiful: a system where every meaningful
+A well-planned system of objects is beautiful: a system where every meaningful
 method for an object has been anticipated in the design.
 Inevitably, another layer of architecture introduces a new concept and with it
-the temptation to monkey-patch, dunk-punch, or otherwise cover up the omission.
-But reaching backward in time, up through the layers of architectures doesn't
-always componse well, when different leaves introduce concepts of the same name
+the temptation to monkey-patch, dunk-punch, or otherwise cover-up the omission.
+But reaching backward in time, up through the layers of architecture doesn't
+always compose well, when different levels introduce concepts of the same name
 but distinct behavior.
 
 A polymorphic operator is a function that accepts as its first argument an
