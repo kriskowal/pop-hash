@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A hash function for arbitrary objects",
   "main": "pop-hash.js",
-  "browser": {
-    "./pop-hash": "./browser-pop-hash.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kriskowal/pop-hash.git"
@@ -22,7 +19,6 @@
   },
   "homepage": "https://github.com/kriskowal/pop-hash",
   "dependencies": {
-    "objhash": "^1.0.5",
     "weak-map": "^1.0.5"
   }
 }
